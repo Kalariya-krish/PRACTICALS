@@ -32,6 +32,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>PRACTICALS.Lab_Tutorial_1.T1_Q21</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,7 +49,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q1.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q10.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q11.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q12.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q13.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q14.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q15.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q16.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q17.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q18.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q19.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q2.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q20.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q21.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q22.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q3.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q4.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q5.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q6.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q7.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q8.cs" />
+    <Compile Include="Lab_Tutorial_1\T1_Q9.cs" />
+    <Compile Include="practice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

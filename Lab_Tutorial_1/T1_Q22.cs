@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PRACTICALS
+namespace PRACTICALS.Lab_Tutorial_1
 {
-    internal class Program
+    internal class T1_Q22
     {
-        static void Main(string[] args)
+        public static void Main(String[] args)
         {
+
         }
     }
 }
