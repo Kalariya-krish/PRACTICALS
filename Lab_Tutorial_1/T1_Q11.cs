@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PRACTICALS.Lab_Tutorial_1
 {
@@ -27,6 +23,7 @@ namespace PRACTICALS.Lab_Tutorial_1
             {
                 Console.WriteLine("Please enter valid gender");
             }
+            Console.Read();
         }
     }
 }

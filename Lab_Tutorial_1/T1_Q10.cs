@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PRACTICALS.Lab_Tutorial_1
 {
@@ -10,14 +6,21 @@ namespace PRACTICALS.Lab_Tutorial_1
     {
         public static void Main(String[] args)
         {
-            int count = 0;
-            string hide = "";
-            Console.Write("Enter the mobile no : ");
-            string mobileNo = Console.ReadLine();
+            Console.Write("Enter Mobile Number: ");
+            string mobile = Console.ReadLine();
 
-            //for(int i=0; i){
+            if (mobile.Length >= 5)
+            {
+                string masked = mobile.Substring(0, mobile.Length - 5) + "XXXXX";
+                Console.WriteLine("OUTPUT: " + masked);
+            }
+            else
+            {
+                Console.WriteLine("Invalid mobile number. Too short.");
+            }
 
-            //}
+            Console.Read();
+
         }
     }
 }
