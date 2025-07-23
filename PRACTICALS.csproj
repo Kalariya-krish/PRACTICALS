@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PRACTICALS.Lab_Tutorial_1.T1_Q10</StartupObject>
+    <StartupObject>PRACTICALS.Lab_Tutorial_2.T2_Q5</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -71,14 +71,22 @@
     <Compile Include="Lab_Tutorial_1\T1_Q7.cs" />
     <Compile Include="Lab_Tutorial_1\T1_Q8.cs" />
     <Compile Include="Lab_Tutorial_1\T1_Q9.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q1.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q10.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q2.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q3.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q4.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q5.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q6.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q7.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q8.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q9.cs" />
     <Compile Include="practice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Lab_Tutorial_2\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
