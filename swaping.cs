@@ -4,7 +4,7 @@ namespace PRACTICALS
 {
     internal class swaping
     {
-        public void with3variable(ref int a, ref int b)
+        public static void with3variable(ref int a, ref int b)
         {
             int temp;
             temp = a;
@@ -12,9 +12,9 @@ namespace PRACTICALS
             b = temp;
         }
 
-        public void without3variable(ref int a, ref int b)
+        public static void without3variable(ref int a, ref int b)
         {
-            a = a + b;  // 30
+            a = a + b;  // 10 + 20 = 30
             b = a - b;  // 30 - 20 = 10
             a = a - b;  // 30 - 10 = 20
         }
@@ -25,10 +25,9 @@ namespace PRACTICALS
             int b = 20;
 
             Console.WriteLine("Before Swapping: a = " + a + ", b = " + b);
-            swaping obj = new swaping();
 
-            //obj.with3variable(ref a, ref b);
-            obj.without3variable(ref a, ref b);
+            //with3variable(ref a, ref b);
+            without3variable(ref a, ref b);
             Console.WriteLine("After Swapping: a = " + a + ", b = " + b);
 
             Console.Read();
