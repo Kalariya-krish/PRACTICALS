@@ -6,6 +6,7 @@ namespace PRACTICALS.Lab_Tutorial_2
     {
         public static void Main(String[] args)
         {
+            Console.WriteLine("Name : KALARIYA KRIS \nEnrollment No: 24SOECE13028\n");
             int[] original = { 78, 23, 34, 5, 90 };
             int[] copy = new int[original.Length];
 

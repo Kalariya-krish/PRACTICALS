@@ -6,6 +6,7 @@ namespace PRACTICALS.Lab_Tutorial_2
     {
         public static void Main(String[] args)
         {
+            Console.WriteLine("Name : KALARIYA KRIS \nEnrollment No: 24SOECE13028\n");
             Console.Write("Enter the number of elements (n): ");
             int n = Convert.ToInt32(Console.ReadLine());
 

@@ -6,6 +6,7 @@ namespace PRACTICALS.Lab_Tutorial_2
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Name : KALARIYA KRIS \nEnrollment No: 24SOECE13028\n");
             int[,] mat1 = { { 1, 2 }, { 3, 4 } };
             int[,] mat2 = { { 5, 6 }, { 7, 8 } };
             int[,] sum = new int[2, 2];

@@ -78,16 +78,44 @@ namespace PRACTICALS
             //}
 
 
-            for(int i=1; i<=9; i++)
+            //for(int i=1; i<=9; i++)
+            //{
+            //    int k = i;
+            //    if (i > 5)
+            //    {
+            //        k = 10 - i;
+            //    }
+            //    for (int j=1; j<=k; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
+            //3 3 3
+            //3 1 3
+            //3 2 3
+            //3 3 3
+
+            Console.Write("Enter no : ");
+            int no = Convert.ToInt32(Console.ReadLine());
+            int count = 1;
+
+            for (int i = 1; i <= no+1; i++)
             {
-                int k = i;
-                if (i > 5)
+                for(int j=1; j<=3; j++)
                 {
-                    k = 10 - i;
-                }
-                for (int j=1; j<=k; j++)
-                {
-                    Console.Write("*");
+                    if(i>1 && i<=no && j==2)
+                    {
+                        Console.Write(count+" ");
+                        count++;
+                    }
+                    else
+                    {
+                        Console.Write(no + " ");
+                    }
                 }
                 Console.WriteLine();
             }

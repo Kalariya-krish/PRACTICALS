@@ -6,6 +6,7 @@ namespace PRACTICALS.Lab_Tutorial_1
     {
         static void Main(String[] args)
         {
+            Console.WriteLine("Name : KALARIYA KRIS \nEnrollment No: 24SOECE13028\n");
             int x;
             Console.WriteLine("Enter Number : ");
             string str = Console.ReadLine();

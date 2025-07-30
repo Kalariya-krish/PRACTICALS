@@ -6,7 +6,8 @@ namespace PRACTICALS.Lab_Tutorial_1
     {
         public static void Main(String[] args)
         {
-            for(int i=1; i<5; i++)
+            Console.WriteLine("Name : KALARIYA KRIS \nEnrollment No: 24SOECE13028\n");
+            for (int i=1; i<5; i++)
             {
                 for(int j=5; j>i; j--)
                 {

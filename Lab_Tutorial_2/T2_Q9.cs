@@ -6,6 +6,7 @@ namespace PRACTICALS.Lab_Tutorial_2
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Name : KALARIYA KRIS \nEnrollment No: 24SOECE13028\n");
             int[] arr = { 10, 20, 30, 40, 50 };
             int n = arr.Length;
 

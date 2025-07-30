@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PRACTICALS.Lab_Tutorial_2.T2_Q5</StartupObject>
+    <StartupObject>PRACTICALS.swaping</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -81,8 +81,10 @@
     <Compile Include="Lab_Tutorial_2\T2_Q7.cs" />
     <Compile Include="Lab_Tutorial_2\T2_Q8.cs" />
     <Compile Include="Lab_Tutorial_2\T2_Q9.cs" />
+    <Compile Include="LinkQ_Example.cs" />
     <Compile Include="practice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="swaping.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
