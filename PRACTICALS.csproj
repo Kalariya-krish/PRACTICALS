@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PRACTICALS.outparam</StartupObject>
+    <StartupObject>PRACTICALS.Lab_Tutorial_2.T2_Q15</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -41,6 +41,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -73,6 +75,11 @@
     <Compile Include="Lab_Tutorial_1\T1_Q9.cs" />
     <Compile Include="Lab_Tutorial_2\T2_Q1.cs" />
     <Compile Include="Lab_Tutorial_2\T2_Q10.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q11.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q12.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q13.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q14.cs" />
+    <Compile Include="Lab_Tutorial_2\T2_Q15.cs" />
     <Compile Include="Lab_Tutorial_2\T2_Q2.cs" />
     <Compile Include="Lab_Tutorial_2\T2_Q3.cs" />
     <Compile Include="Lab_Tutorial_2\T2_Q4.cs" />
@@ -81,6 +88,16 @@
     <Compile Include="Lab_Tutorial_2\T2_Q7.cs" />
     <Compile Include="Lab_Tutorial_2\T2_Q8.cs" />
     <Compile Include="Lab_Tutorial_2\T2_Q9.cs" />
+    <Compile Include="Tutorial_Arrays\Array1.cs" />
+    <Compile Include="Tutorial_Arrays\Array10.cs" />
+    <Compile Include="Tutorial_Arrays\Array2.cs" />
+    <Compile Include="Tutorial_Arrays\Array3.cs" />
+    <Compile Include="Tutorial_Arrays\Array4.cs" />
+    <Compile Include="Tutorial_Arrays\Array5.cs" />
+    <Compile Include="Tutorial_Arrays\Array6.cs" />
+    <Compile Include="Tutorial_Arrays\Array7.cs" />
+    <Compile Include="Tutorial_Arrays\Array8.cs" />
+    <Compile Include="Tutorial_Arrays\Array9.cs" />
     <Compile Include="LinkQ_Example.cs" />
     <Compile Include="outparam.cs" />
     <Compile Include="practice.cs" />
@@ -90,6 +107,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -4,15 +4,21 @@ namespace PRACTICALS.Lab_Tutorial_2
 {
     internal class T2_Q1
     {
-        public static void Main(string[] args)
+        public static void Main(String[] args)
         {
             Console.WriteLine("Name : KALARIYA KRIS \nEnrollment No: 24SOECE13028\n");
-            int[] arr = { 12, 34, 67, 34, 99 };
-            for (int i = 0; i < arr.Length; i++)
+
+            /* local variable definition */
+            int a = 10;
+
+            /* check the boolean condition using if statement */
+            if (a < 20)
             {
-                Console.WriteLine(arr[i]);
+                /* if condition is true then print the following */
+                Console.WriteLine("a is less than 20");
             }
-            Console.Read();
+            Console.WriteLine("value of a is : {0}", a);
+            Console.ReadLine();
         }
     }
 }

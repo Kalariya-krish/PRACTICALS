@@ -7,24 +7,17 @@ namespace PRACTICALS.Lab_Tutorial_2
         public static void Main(String[] args)
         {
             Console.WriteLine("Name : KALARIYA KRIS \nEnrollment No: 24SOECE13028\n");
-            Console.Write("Enter the number of elements (n): ");
-            int n = Convert.ToInt32(Console.ReadLine());
+            string firstName = "John";
+            string lastName = "Doe";
+            Console.WriteLine("Name: " + firstName + " " + lastName);
 
-            int[] arr = new int[n];
+            Console.WriteLine("Please enter a new first name:");
+            firstName = Console.ReadLine();
 
-            for (int i = 0; i < n; i++)
-            {
-                Console.Write("Enter element {0}: ", i + 1);
-                arr[i] = Convert.ToInt32(Console.ReadLine());
-            }
+            Console.WriteLine("New name: " + firstName + " " + lastName);
 
-            Console.WriteLine("\nArray elements in reverse order:");
-            for (int i = n - 1; i >= 0; i--)
-            {
-                Console.Write(arr[i] + " ");
-            }
+            Console.ReadLine();
 
-            Console.Read();
         }
     }
 }

@@ -4,38 +4,26 @@ namespace PRACTICALS.Lab_Tutorial_2
 {
     internal class T2_Q2
     {
-        public static void Main(string[] args)
+        public static void Main(String[] args)
         {
             Console.WriteLine("Name : KALARIYA KRIS \nEnrollment No: 24SOECE13028\n");
-            int[] arr = new int[5];
 
-            for (int i = 0; i < arr.Length; i++)
+            /* local variable definition */
+            int a = 100;
+            /* check the boolean condition */
+            if (a < 20)
             {
-                Console.Write("Enter element {0}: ", i + 1);
-                arr[i] = Convert.ToInt32(Console.ReadLine());
+                /* if condition is true then print the following */
+                Console.WriteLine("a is less than 20");
             }
-
-            for (int i = 0; i < arr.Length - 1; i++)
+            else
             {
-                for (int j = 0; j < arr.Length - 1 - i; j++)
-                {
-                    if (arr[j] > arr[j + 1])
-                    {
-                        int temp = arr[j];
-                        arr[j] = arr[j + 1];
-                        arr[j + 1] = temp;
-                    }
-                }
+                /* if condition is false then print the following */
+                Console.WriteLine("a is greter than 20");
             }
+            Console.WriteLine("value of a is : {0}", a);
+            Console.ReadLine();
 
-            Console.WriteLine("\nSorted array in ascending order:");
-            for (int i = 0; i < arr.Length; i++)
-            {
-                Console.Write(arr[i] + " ");
-            }
-
-            Console.WriteLine();
-            Console.Read();
         }
     }
 }

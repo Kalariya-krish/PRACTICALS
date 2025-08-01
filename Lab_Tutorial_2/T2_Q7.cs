@@ -2,31 +2,37 @@
 
 namespace PRACTICALS.Lab_Tutorial_2
 {
+    class NumberManipulator
+    {
+        public void swap(ref int x, ref int y)
+        {
+            int temp;
+            temp = x; /* save the value of x */
+            x = y;   /* put y into x */
+            y = temp; /* put temp into y */
+        }
+    }
+
     internal class T2_Q7
     {
         public static void Main(String[] args)
         {
             Console.WriteLine("Name : KALARIYA KRIS \nEnrollment No: 24SOECE13028\n");
-            int[] arr = { 23, 34, 2, 45, 78, 90, 30 };
-            
-            Console.WriteLine("Even Numbers:");
-            foreach (int num in arr)
-            {
-                if (num % 2 == 0)
-                {
-                    Console.Write(num + " ");
-                }
-            }
+            NumberManipulator n = new NumberManipulator();
+            /* local variable definition */
+            int a = 100;
+            int b = 200;
 
-            Console.WriteLine("\nOdd Numbers :");
-            foreach (int num in arr)
-            {
-                if (num % 2 != 0)
-                {
-                    Console.Write(num + " ");
-                }
-            }
-            Console.Read();
+            Console.WriteLine("Before swap, value of a : {0}", a);
+            Console.WriteLine("Before swap, value of b : {0}", b);
+
+            /* calling a function to swap the values */
+            n.swap(ref a, ref b);
+
+            Console.WriteLine("After swap, value of a : {0}", a);
+            Console.WriteLine("After swap, value of b : {0}", b);
+
+            Console.ReadLine();
         }
     }
 }
