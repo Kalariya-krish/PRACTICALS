@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PRACTICALS.Lab_Tutorial_3.T3_Q5.TestProduct</StartupObject>
+    <StartupObject>PRACTICALS.Lab_Tutorial_3.T3_Q7.TestStudent</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
