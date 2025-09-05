@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>PRACTICALS.Lab_Tutorial_3.T3_Q7.TestStudent</StartupObject>
+    <StartupObject>PRACTICALS.Lab_Tutorial_4.T4_Q10</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="inheritence.cs" />
     <Compile Include="Lab_Tutorial_1\T1_Q1.cs" />
     <Compile Include="Lab_Tutorial_1\T1_Q10.cs" />
     <Compile Include="Lab_Tutorial_1\T1_Q11.cs" />
@@ -95,6 +96,16 @@
     <Compile Include="Lab_Tutorial_3\T3_Q5.cs" />
     <Compile Include="Lab_Tutorial_3\T3_Q6.cs" />
     <Compile Include="Lab_Tutorial_3\T3_Q7.cs" />
+    <Compile Include="Lab_Tutorial_4\T4_Q1.cs" />
+    <Compile Include="Lab_Tutorial_4\T4_Q10.cs" />
+    <Compile Include="Lab_Tutorial_4\T4_Q2.cs" />
+    <Compile Include="Lab_Tutorial_4\T4_Q3.cs" />
+    <Compile Include="Lab_Tutorial_4\T4_Q4.cs" />
+    <Compile Include="Lab_Tutorial_4\T4_Q5.cs" />
+    <Compile Include="Lab_Tutorial_4\T4_Q6.cs" />
+    <Compile Include="Lab_Tutorial_4\T4_Q7.cs" />
+    <Compile Include="Lab_Tutorial_4\T4_Q8.cs" />
+    <Compile Include="Lab_Tutorial_4\T4_Q9.cs" />
     <Compile Include="Tutorial_Arrays\Array1.cs" />
     <Compile Include="Tutorial_Arrays\Array10.cs" />
     <Compile Include="Tutorial_Arrays\Array2.cs" />
